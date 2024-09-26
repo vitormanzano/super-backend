@@ -34,7 +34,6 @@ function cadastrarConta(conta:Conta): number{
     contas.push(conta);
     return contas.length;
     
-
 }
 
 route.put('/signUp', 
