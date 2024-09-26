@@ -64,8 +64,6 @@ route.put('/signUp',
     });
 
 
-
-
 app.use(route);
 app.listen(port,() => console.log(`Server running on port ${port}`));
 
